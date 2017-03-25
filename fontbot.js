@@ -4,7 +4,7 @@ var request = require('request');
 // Define the bot instance
 var bot = new Discord.Client({
     autorun: true,
-    token: "MjIyMzY5Mzk2MjE0MDcxMjk3.C63YAg.H6XHFjCkinlLEgYfgdzLxv4nQvY"
+    token: ""
 });
 
 // Reconnect the bot if they somehow get disconnected
