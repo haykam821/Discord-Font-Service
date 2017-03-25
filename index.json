@@ -28,8 +28,6 @@
          "x":":regional_indicator_x:",
          "y":":regional_indicator_y:",
          "z":":regional_indicator_z:",
-         "*":":asterisk:",
-         "#":":hash:",
          "0":":zero:",
          "1":":one:",
          "2":":two:",
@@ -39,7 +37,9 @@
          "6":":six:",
          "7":":seven:",
          "8":":eight:",
-         "9":":nine:"
+         "9":":nine:",
+         "*":":asterisk:",
+         "#":":hash:",
       }
    ],
    "skate":[
