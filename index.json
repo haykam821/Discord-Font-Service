@@ -84,7 +84,10 @@
       }
    ],
    "steel":[
-      "steel"
+      "steel",
+      {
+        "a": "<:steel_a:273933055142395904>"
+      }
    ],
    "orange":[
       "orange",
