@@ -69,21 +69,23 @@ bot.on('message', function(user, userID, channelID, message, event) {
   try {
     if (userID == bot.id) {
         // Respond to commands using parse to emoji function
-        if (message.toLowerCase().startsWith('>e ')) {
-            bot.editMessage({
+        if (message.toLowerCase().startsWith('>fontify ')) {
+            var result = parseToEmoji('>fontify',message);
+            bot1.editMessage({
                 channelID: channelID,
                 messageID: event.d.id,
                 message: message,
-                embed: {description:parseToEmoji('>e', message)},
+                embed: {color:result.color,description:result.text,footer:{text:`Font: ${result.font}`}},
             });
         }
         // Respond to commands using parse to emoji function, but output as raw
-        if (message.toLowerCase().startsWith('>er ')) {
-            bot.editMessage({
+        if (message.toLowerCase().startsWith('>codeify')) {
+            var result = parseToEmoji('>codeify',message);
+            bot1.editMessage({
                 channelID: channelID,
                 messageID: event.d.id,
                 message: message,
-                embed: {description:`\`\`\`\n${parseToEmoji('>er',message)}\`\`\``},
+                embed: {color:result.color,description:`\`\`\`\n${result.text}\`\`\``,footer:{text:`Font: ${result.font}`}},
             });
         }
     }
