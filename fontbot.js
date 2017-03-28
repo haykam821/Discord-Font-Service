@@ -28,7 +28,7 @@ setInterval(getEmojiFonts,3000);
 var fonts = {};
 
 // Define a function to convert from text to letter emoji
-ffunction parseToEmoji(cmd, message) {
+function parseToEmoji(cmd, message) {
   try {
     array = message.toLowerCase().replace(cmd + ' ', '').split(' ');
     font = fonts[message.replace('font:', '').split(' ')[message.split(' ').length - 1]] == undefined ? fonts['default'] : fonts[message.replace('font:', '').split(' ')[message.split(' ').length - 1]]
