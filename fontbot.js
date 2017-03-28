@@ -18,6 +18,7 @@ function getEmojiFonts(){
     if (!error && response.statusCode == 200) {
        importedJSON = JSON.parse(body);
        fonts = importedJSON['fonts'];
+       config = importedJSON['config'];
     }
   })
 };
