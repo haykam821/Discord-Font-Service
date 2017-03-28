@@ -99,7 +99,7 @@
      },
      "orange": {
         "font_name": "Orange Indicators",
-        "emojis":
+        "emojis": {
            "a": "<:orange_a:273577061468209154>",
            "b": "<:orange_b:273580004196220938>",
            "c": "<:orange_c:273591332503814144>",
