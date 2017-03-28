@@ -80,6 +80,6 @@ bot.on('message', function(user, userID, channelID, message, event) {
         }
     }
   } catch (err) {
-    console.log('Error (bot 1): ' + err);
+    console.log('Error: ' + err);
   }
 });
