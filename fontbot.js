@@ -49,7 +49,7 @@ function parseToEmoji(cmd, message) {
     return {
       font: font == fonts['default'] ? `Default (${fonts.default['font_name']})` : font['font_name'],
       text: array.join('‌'),
-      color: parseInt(font['color'])
+      color: parseInt(font['color']) == undefined ? config['fallback_color'] : parseInt(font['color'])
     }
   } catch (err) {
     return {
