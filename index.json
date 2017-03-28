@@ -44,9 +44,9 @@
         },
         "0x3F89C1"
      },
-     "skate":[
-        "Skate",
-        {
+     "skate": {
+        "font_name": "Skate",
+        "emojis": {
            "a": "<:skate_a:273565973695430656>",
            "b": "<:skate_b:273565984130859008>",
            "c": "<:skate_c:273566001520574467>",
@@ -86,8 +86,8 @@
            "!": "<:skate_exclamation:273574817628815361>",
            "?": "<:skate_question:273575034730184704>"
         }
-     ],
-     "steel":[
+     },
+     "steel": {
         "Steel",
         {
           "a": "<:steel_a:273933055142395904>",
@@ -96,8 +96,8 @@
           "d": "<:steel_d:273935262348738570>",
           "e": "<:steel_e:273935296674922498>"
         }
-     ],
-     "orange":[
+     },
+     "orange": {
         "Orange Indicators",
         {
            "a": "<:orange_a:273577061468209154>",
@@ -108,13 +108,13 @@
            "f": "<:orange_f:273591361431797770>"
         }
      ],
-     "black":[
+     "black": {
         "Black Indicators"
      ],
-     "red":[
+     "red": {
         "Red Indicators"
      ],
-     "blurple":[
+     "blurple": {
         "Blurple Indicators",
         {
           "a": "<:blurple_a:296076935560167426>",
@@ -155,8 +155,8 @@
           "9": "<:blurple_9:296100009097822209>"
         },
         "0x738BD7"
-     ],
-     "unown":[
+     },
+     "unown": {
         "Unown Forms",
         {
            "a": "<:unown_a:294974131290636288>",
@@ -188,8 +188,8 @@
            "!": "<:unown_exclamation:294977981342941186>",
            "?": "<:unown_question:294977989270306816>"
         }
-     ],
-     "smasher":[
+     },
+     "smasher": {
         "Diep.io Smashers",
         {
           "a": "<:smasher_a:295594006237282316>",
@@ -212,15 +212,15 @@
           "8": "",
           "9": ""
         }
-     ],
-     "purple":[
+     },
+     "purple": {
        "Purple Indicators",
        {
          "a": "<:purple_a:296396059817803777>"
        },
        "0x9A5CB4"
-     ],
-     "template":[
+     },
+     "template": {
         "Template (not meant to work)",
         {
           "a": "",
@@ -260,6 +260,6 @@
           "8": "",
           "9": ""
         }
-     ]
- }
+     }
+   }
 }
