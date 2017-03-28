@@ -42,7 +42,7 @@
            "*":":asterisk:",
            "#":":hash:"
         },
-        "0x3F89C1"
+        "color": "0x3F89C1"
      },
      "skate": {
         "font_name": "Skate",
