@@ -88,7 +88,7 @@
         }
      },
      "steel": {
-        "Steel",
+        "font_name": "Steel",
         {
           "a": "<:steel_a:273933055142395904>",
           "b": "<:steel_b:273935150042054667>",
@@ -98,7 +98,7 @@
         }
      },
      "orange": {
-        "Orange Indicators",
+        "font_name": "Orange Indicators",
         {
            "a": "<:orange_a:273577061468209154>",
            "b": "<:orange_b:273580004196220938>",
@@ -109,13 +109,13 @@
         }
      },
      "black": {
-        "Black Indicators"
+        "font_name": "Black Indicators"
      },
      "red": {
-        "Red Indicators"
+        "font_name": "Red Indicators"
      },
      "blurple": {
-        "Blurple Indicators",
+        "font_name": "Blurple Indicators",
         {
           "a": "<:blurple_a:296076935560167426>",
           "b": "<:blurple_b:296076965994299403>",
@@ -157,7 +157,7 @@
         "color": "0x738BD7"
      },
      "unown": {
-        "Unown Forms",
+        "font_name": "Unown Forms",
         {
            "a": "<:unown_a:294974131290636288>",
            "b": "<:unown_b:294974154946379777>",
@@ -190,7 +190,7 @@
         }
      },
      "smasher": {
-        "Diep.io Smashers",
+        "font_name": "Diep.io Smashers",
         {
           "a": "<:smasher_a:295594006237282316>",
           "b": "<:smasher_b:295594067537035270>",
@@ -214,14 +214,14 @@
         }
      },
      "purple": {
-       "Purple Indicators",
+       "font_name": "Purple Indicators",
        {
          "a": "<:purple_a:296396059817803777>"
        },
        "color": "0x9A5CB4"
      },
      "template": {
-        "Template (not meant to work)",
+        "font_name": "Template (not meant to work)",
         {
           "a": "",
           "b": "",
