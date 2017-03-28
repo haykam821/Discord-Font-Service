@@ -17,7 +17,7 @@ function getEmojiFonts(){
   request('https://github.com/haykam821/Discord-Font-Service/raw/master/index.json', function (error, response, body) {
     if (!error && response.statusCode == 200) {
        importedJSON = JSON.parse(body);
-       fonts = importedJSON['fonts'];;
+       fonts = importedJSON['fonts'];
     }
   })
 };
