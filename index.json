@@ -89,7 +89,7 @@
      },
      "steel": {
         "font_name": "Steel",
-        {
+        "emojis": {
           "a": "<:steel_a:273933055142395904>",
           "b": "<:steel_b:273935150042054667>",
           "c": "<:steel_c:273935183022129154>",
@@ -99,7 +99,7 @@
      },
      "orange": {
         "font_name": "Orange Indicators",
-        {
+        "emojis":
            "a": "<:orange_a:273577061468209154>",
            "b": "<:orange_b:273580004196220938>",
            "c": "<:orange_c:273591332503814144>",
@@ -116,7 +116,7 @@
      },
      "blurple": {
         "font_name": "Blurple Indicators",
-        {
+        "emojis": {
           "a": "<:blurple_a:296076935560167426>",
           "b": "<:blurple_b:296076965994299403>",
           "c": "<:blurple_c:296099140440555520>",
@@ -158,7 +158,7 @@
      },
      "unown": {
         "font_name": "Unown Forms",
-        {
+        "emojis": {
            "a": "<:unown_a:294974131290636288>",
            "b": "<:unown_b:294974154946379777>",
            "c": "<:unown_c:294974164924891148>",
@@ -191,7 +191,7 @@
      },
      "smasher": {
         "font_name": "Diep.io Smashers",
-        {
+        "emojis": {
           "a": "<:smasher_a:295594006237282316>",
           "b": "<:smasher_b:295594067537035270>",
           "c": "<:smasher_c:295594147296051201>",
@@ -215,14 +215,14 @@
      },
      "purple": {
        "font_name": "Purple Indicators",
-       {
+       "emojis": {
          "a": "<:purple_a:296396059817803777>"
        },
        "color": "0x9A5CB4"
      },
      "template": {
         "font_name": "Template (not meant to work)",
-        {
+        "emojis": {
           "a": "",
           "b": "",
           "c": "",
