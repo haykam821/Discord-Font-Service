@@ -46,7 +46,7 @@ function parseToEmoji(cmd, message) {
         array[i] = font[1][array[i]] == undefined ? array[i] : font[1][array[i]]
     }
     return {
-      font: font == fonts['default'] ? `Default (${fonts.default[0]})` : font[0],
+      font: font == fonts['default'] ? `Default (${fonts.default['font_name']})` : font['font_name'],
       text: array.join('‌'),
       color: parseInt(font[2])
     }
