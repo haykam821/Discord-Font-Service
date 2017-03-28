@@ -1,6 +1,6 @@
 {
    "default":[
-      "blue",
+      "Blue Indicators",
       {
          "a":":regional_indicator_a:",
          "b":":regional_indicator_b:",
@@ -44,7 +44,7 @@
       "0x3F89C1"
    ],
    "skate":[
-      "skate",
+      "Skate",
       {
          "a": "<:skate_a:273565973695430656>",
          "b": "<:skate_b:273565984130859008>",
@@ -87,7 +87,7 @@
       }
    ],
    "steel":[
-      "steel",
+      "Steel",
       {
         "a": "<:steel_a:273933055142395904>",
         "b": "<:steel_b:273935150042054667>",
@@ -97,7 +97,7 @@
       }
    ],
    "orange":[
-      "orange",
+      "Orange Indicators",
       {
          "a": "<:orange_a:273577061468209154>",
          "b": "<:orange_b:273580004196220938>",
@@ -108,13 +108,13 @@
       }
    ],
    "black":[
-      "black"
+      "Black Indicators"
    ],
    "red":[
-      "red"
+      "Red Indicators"
    ],
    "blurple":[
-      "blurple",
+      "Blurple Indicators",
       {
         "a": "<:blurple_a:296076935560167426>",
         "b": "<:blurple_b:296076965994299403>",
@@ -156,7 +156,7 @@
       "0x738BD7"
    ],
    "unown":[
-      "unown",
+      "Unown Forms",
       {
          "a": "<:unown_a:294974131290636288>",
          "b": "<:unown_b:294974154946379777>",
@@ -189,7 +189,7 @@
       }
    ],
    "smasher":[
-      "smasher",
+      "Diep.io Smashers",
       {
         "a": "<:smasher_a:295594006237282316>",
         "b": "<:smasher_b:295594067537035270>",
@@ -203,13 +203,13 @@
       }
    ],
    "purple":[
-     "purple",
+     "Purple Indicators",
      {
        "a": "<:purple_a:296396059817803777>"
      }
    ],
    "template":[
-      "template",
+      "Template (not meant to work)",
       {
         "a": "",
         "b": "",
