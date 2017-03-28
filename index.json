@@ -154,7 +154,7 @@
           "8": "<:blurple_8:296099989875064843>",
           "9": "<:blurple_9:296100009097822209>"
         },
-        "0x738BD7"
+        "color": "0x738BD7"
      },
      "unown": {
         "Unown Forms",
@@ -218,7 +218,7 @@
        {
          "a": "<:purple_a:296396059817803777>"
        },
-       "0x9A5CB4"
+       "color": "0x9A5CB4"
      },
      "template": {
         "Template (not meant to work)",
