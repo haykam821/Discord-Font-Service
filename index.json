@@ -43,7 +43,8 @@
            "8":":eight:",
            "9":":nine:",
            "*":":asterisk:",
-           "#":":hash:"
+           "#":":hash:",
+           "👨‍👩‍👦":"*(test succesful! ZWJ works)*"
         },
         "color": "0x3F89C1"
      },
