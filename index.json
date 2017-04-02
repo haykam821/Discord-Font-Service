@@ -235,7 +235,8 @@
           "g": "<:maroon_g:298202612275216394>",
           "h": "<:maroon_h:298202630868434944>",
           "i": "<:maroon_i:298202630898057226>"
-        }
+        },
+        "color": "0x962E26"
      },
      "template": {
         "font_name": "Template (not meant to work)",
