@@ -244,6 +244,12 @@
         },
         "color": "0x962E26"
      },
+     "facebook": {
+       "font_name": "Facebook",
+       "emojis": {
+         "a": "<:facebook_a:299287493054824460>"
+       }
+     },
      "template": {
         "font_name": "Template (not meant to work)",
         "emojis": {
