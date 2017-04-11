@@ -124,7 +124,15 @@
         "color": "0x000000"
      },
      "yellow": {
-       "font_name": "Yellow Indicators"
+       "font_name": "Yellow Indicators",
+       "emojis": {
+           "a": "<:black_a:301422822247366656>",
+           "b": "<:black_b:301422834939592704>",
+           "c": "<:black_c:301422851691642890>",
+           "d": "<:black_d:301422864341401600>",
+           "e": "<:black_e:301422881278001155>",
+           "f": "<:black_f:301422903109484544>"
+       },
      },
      "red": {
         "font_name": "Red Indicators"
