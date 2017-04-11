@@ -32,27 +32,29 @@ var fonts = {};
 function parseToEmoji(cmd, message) {
   try {
     array = message.toLowerCase().replace(cmd + ' ', '').split(' ');
-    font = fonts[message.replace('font:', '').split(' ')[message.split(' ').length - 1]] == undefined ? fonts['default'] : fonts[message.replace('font:', '').split(' ')[message.split(' ').length - 1]]
+    fontid = fonts[message.replace('font:', '').split(' ')[message.split(' ').length - 1]] == (undefined||'bee') ? 'default' : message.replace('font:', '').split(' ')[message.split(' ').length - 1];
+
+    font = fonts[fontid];
     // Font setup
     if (array[array.length - 1].startsWith('font:')) {
         array.pop();
     } else {
         font = fonts['default'];
     };
-    fontname = array[i];
     // Fix array again
     array = array.join(' ').split('');
     // Convert to emoji!
-    if (fontname == 'bee') {
+    if (fontid == 'bee'){
       for (var i = 0; i < array.length; i++) {
           if (i % 2 == 0) {
-            array[i] = font['emojis']['black'] == undefined ? array[i] : font['emojis']['black']
+            array[i] = fonts['yellow']['emojis'][array[i]] == undefined ? array[i] : fonts['yellow']['emojis'][array[i]];
           } else {
-            array[i] = font['emojis']['yellow'] == undefined ? array[i] : font['emojis']['yellow']
+            array[i] = fonts['black']['emojis'][array[i]] == undefined ? array[i] : fonts['black']['emojis'][array[i]];
           }
       }
     } else {
       for (var i = 0; i < array.length; i++) {
+          console.log(font['emojis'][array[i]])
           array[i] = font['emojis'][array[i]] == undefined ? array[i] : font['emojis'][array[i]]
       }
     }
