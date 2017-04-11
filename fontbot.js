@@ -39,6 +39,7 @@ function parseToEmoji(cmd, message) {
     } else {
         font = fonts['default'];
     };
+    fontname = array[i];
     // Fix array again
     array = array.join(' ').split('');
     // Convert to emoji!
