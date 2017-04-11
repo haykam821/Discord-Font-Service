@@ -134,6 +134,9 @@
            "f": "<:yellow_f:301426063832121345>"
        }
      },
+     "bee": {
+       "font_name": "Bee (Black and Yellow)"
+     },
      "red": {
         "font_name": "Red Indicators"
      },
