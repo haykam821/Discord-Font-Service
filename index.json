@@ -123,6 +123,9 @@
         },
         "color": "0x000000"
      },
+     "yellow": {
+
+     },
      "red": {
         "font_name": "Red Indicators"
      },
