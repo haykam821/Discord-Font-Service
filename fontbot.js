@@ -47,7 +47,6 @@ function parseToEmoji(cmd, message) {
 
     } else {
       for (var i = 0; i < array.length; i++) {
-          console.log(font['emojis'][array[i]])
           array[i] = font['emojis'][array[i]] == undefined ? array[i] : font['emojis'][array[i]]
       }
     }
