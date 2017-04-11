@@ -112,7 +112,15 @@
         }
      },
      "black": {
-        "font_name": "Black Indicators"
+        "font_name": "Black Indicators",
+        "emojis": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": "",
+            "e": "",
+            "f": ""
+        }
      },
      "red": {
         "font_name": "Red Indicators"
