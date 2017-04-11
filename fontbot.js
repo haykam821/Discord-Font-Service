@@ -44,7 +44,13 @@ function parseToEmoji(cmd, message) {
     array = array.join(' ').split('');
     // Convert to emoji!
     if (fontname == 'bee') {
-
+      for (var i = 0; i < array.length; i++) {
+          if (i % 2 == 0) {
+            array[i] = font['emojis']['black'] == undefined ? array[i] : font['emojis']['black']
+          } else {
+            array[i] = font['emojis']['yellow'] == undefined ? array[i] : font['emojis']['yellow']
+          }
+      }
     } else {
       for (var i = 0; i < array.length; i++) {
           array[i] = font['emojis'][array[i]] == undefined ? array[i] : font['emojis'][array[i]]
