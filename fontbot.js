@@ -38,6 +38,12 @@ function parseToEmoji(cmd, message) {
     fontid = fonts[message.replace('font:', '').split(' ')[message.split(' ').length - 1]] == (undefined||'bee') ? 'default' : message.replace('font:', '').split(' ')[message.split(' ').length - 1];
 
     font = fonts[fontid];
+
+    // Add a test font that errors the bot
+    if (fontid == 'error') {
+      throw new Error('This font was meant to test the error message. Please get a life now.')
+    }
+
     // Font setup
     if (array[array.length - 1].startsWith('font:')) {
         array.pop();
