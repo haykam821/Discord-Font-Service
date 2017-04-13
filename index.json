@@ -109,7 +109,8 @@
            "d": "<:orange_d:273591340015550464>",
            "e": "<:orange_e:273591348118945792>",
            "f": "<:orange_f:273591361431797770>"
-        }
+        },
+        "color": "0xFDA428"
      },
      "black": {
         "font_name": "Black Indicators",
