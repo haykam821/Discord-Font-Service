@@ -34,9 +34,11 @@ getEmojiFonts();
 // Define a function to convert from text to letter emoji
 function parseToEmoji(cmd, message) {
   try {
+    // Create an array out of the message
     array = message.toLowerCase().replace(cmd + ' ', '').split(' ');
-    fontid = fonts[message.replace('font:', '').split(' ')[message.split(' ').length - 1]] == (undefined||'bee') ? 'default' : message.replace('font:', '').split(' ')[message.split(' ').length - 1];
 
+    // Extract the font ID and font object from the message
+    fontid = fonts[message.replace('font:', '').split(' ')[message.split(' ').length - 1]] == (undefined||'bee') ? 'default' : message.replace('font:', '').split(' ')[message.split(' ').length - 1];
     font = fonts[fontid];
 
     // Add a test font that errors the bot
