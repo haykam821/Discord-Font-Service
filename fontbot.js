@@ -28,6 +28,9 @@ setInterval(getEmojiFonts,3000);
 // Define fonts in case it hasn't loaded yet
 var fonts = {};
 
+// Load emoji fonts on startup instead of waiting 3 seconds
+getEmojiFonts();
+
 // Define a function to convert from text to letter emoji
 function parseToEmoji(cmd, message) {
   try {
