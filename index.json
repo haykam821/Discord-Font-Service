@@ -140,10 +140,12 @@
            "l": "<:yellow_l:301479538007998486>",
            "m": "<:yellow_m:301479617036943370>",
            "n": "<:yellow_n:301479616772571137>"
-       }
+       },
+       "color": "0xF0C330"
      },
      "bee": {
-       "font_name": "Bee (Black and Yellow)"
+       "font_name": "Bee (Black and Yellow)",
+       "color": "0xF0C330"
      },
      "red": {
         "font_name": "Red Indicators"
