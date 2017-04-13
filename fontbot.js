@@ -68,7 +68,7 @@ function parseToEmoji(cmd, message) {
   } catch (err) {
     return {
       font: 'None',
-      text: `Fail. ${err}`,
+      text: `*Houston, we have a problem, and JavaScript calls it '${err.name}'.*\n\n${err.message}`,
       color: 0xFF1100
     }
   }
