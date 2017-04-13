@@ -25,7 +25,7 @@ function getEmojiFonts(){
 
 setInterval(getEmojiFonts,3000);
 
-// Define fonts in case it hasn't loaded yet
+// Define the fonts variable as an array
 var fonts = {};
 
 // Load emoji fonts on startup instead of waiting 3 seconds
