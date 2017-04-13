@@ -115,9 +115,11 @@
         "color": "0xFDA428"
      },
      "orangered": {
+       "font_name": "Orangered Indicators",
        "color": "0xFC471E"
      },
      "navyblue": {
+       "font_name": "Navy Blue Indicators",
        "color": "0x373CC2"
      },
      "black": {
