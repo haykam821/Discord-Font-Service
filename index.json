@@ -105,12 +105,12 @@
      "platinumplate": {
        "font_name": "Platinum Plate Indicators",
        "emojis": {
-         "a": "",
-         "b": "",
-         "c": "",
-         "d": "",
-         "e": "",
-         "f": "",
+         "a": "<:platinumplate_a:302505094937706497>",
+         "b": "<:platinumplate_b:302505113233391617>",
+         "c": "<:platinumplate_c:302505137484857345>",
+         "d": "<:platinumplate_d:302505138025922571>",
+         "e": "<:platinumplate_e:302505156384129026>",
+         "f": "<:platinumplate_f:302507377725538305>",
        }
      },
      "spring": {
