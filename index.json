@@ -103,19 +103,19 @@
         }
      },
      "platinumplate": {
-       "font_name": ""
+       "font_name": "Platinum Plate Indicators"
      },
      "spring": {
-       "font_name": ""
+       "font_name": "Spring Gradient Indicators"
      },
      "reversespring": {
-       "font_name": ""
+       "font_name": "Reverse Spring Gradient Indicators"
      },
      "fall": {
-       "font_name": ""
+       "font_name": "Fall Gradient Indicators"
      },
      "reversefall": {
-       "font_name": ""
+       "font_name": "Reverse Fall Gradient Indicators"
      },
      "orange": {
         "font_name": "Orange Indicators",
