@@ -103,7 +103,10 @@
         }
      },
      "platinumplate": {
-       "font_name": "Platinum Plate Indicators"
+       "font_name": "Platinum Plate Indicators",
+       "emojis": {
+         
+       }
      },
      "spring": {
        "font_name": "Spring Gradient Indicators"
