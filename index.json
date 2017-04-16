@@ -377,20 +377,23 @@
    "diepcons": {
      "mastery": {
        "gold": {
-
+         "annihilator_ram": "",
+         "annihilator": ""
        },
        "silver": {
-
+         "annihilator_ram": "",
+         "annihilator": ""
        },
        "bronze": {
-
+         "annihilator_ram": "",
+         "annihilator": ""
        }
      },
      "contest": {
 
      },
      "other": {
-       
+
      }
    }
 }
