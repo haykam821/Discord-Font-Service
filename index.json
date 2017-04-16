@@ -377,8 +377,8 @@
    "diepcons": {
      "mastery": {
        "gold": {
-         "annihilator_ram": "",
-         "annihilator": ""
+         "annihilator_ram": "<:gm_annihilator_ram:303182238785208320>",
+         "annihilator": "<:gm_annihilator:303182365159718915>"
        },
        "silver": {
          "annihilator_ram": "",
@@ -390,7 +390,7 @@
        }
      },
      "contest": {
-       
+
      },
      "other": {
 
