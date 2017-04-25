@@ -1,7 +1,21 @@
 # Discord Font Service
 Font emojis!
 
-# Credits
+## Installation
+
+## Usage
+
+Here is a table of the commands that work with this selfbot.
+
+Command | Parameters | Description
+--- | --- | ---
+`>fontify` | `<message>` | Using the default font, translates `message` to emojis.
+`>fontify` | `<message> font:<font>` | Using the given font from the `font` parameter, translates `message` to emojis.
+`>codeify` | `<message>` | Using the default font, translates `message` to emoji copy/pasteable code.
+`>codeify` | `<message> font:<font>` | Using the given font from the `font` parameter, translates `message` to emoji copy/pasteable code.
+
+
+## Credits
 Here are a few people that I'd like to thank for supplying emojis for this service.
 
 * **[Discord](https://discordapp.com)** provided their free service, emoji hosting, and everything that makes the selfbot and emojis possible.
