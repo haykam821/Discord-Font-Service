@@ -94,7 +94,7 @@ bot.on('message', function(user, userID, channelID, message, event) {
         // Respond to commands using parse to emoji function
         if (message.toLowerCase().startsWith('>fontify ')) {
             var result = parseToEmoji('>fontify',message);
-            bot1.editMessage({
+            bot.editMessage({
                 channelID: channelID,
                 messageID: event.d.id,
                 message: message,
@@ -104,7 +104,7 @@ bot.on('message', function(user, userID, channelID, message, event) {
         // Respond to commands using parse to emoji function, but output as raw
         if (message.toLowerCase().startsWith('>codeify')) {
             var result = parseToEmoji('>codeify',message);
-            bot1.editMessage({
+            bot.editMessage({
                 channelID: channelID,
                 messageID: event.d.id,
                 message: message,
