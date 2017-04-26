@@ -244,6 +244,9 @@
      },
      "springgreen": {
         "font_name": "Spring Green Indicators",
+        "emojis": [
+
+        ],
         "color": "0x11EB60"
      },
      "unown": {
