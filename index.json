@@ -242,6 +242,9 @@
         },
         "color": "0x738BD7"
      },
+     "springgreen": {
+        "font_name": "Spring Green Indicators"
+     },
      "unown": {
         "font_name": "Unown Forms",
         "emojis": {
