@@ -244,7 +244,7 @@
      },
      "springgreen": {
         "font_name": "Spring Green Indicators",
-        "emojis": [
+        "emojis": {
            "a": "<:springgreen_a:306751353353535488>",
            "b": "<:springgreen_b:306751375814033409>",
            "c": "<:springgreen_c:306751376145383424>",
@@ -283,7 +283,7 @@
            "9": "<:springgreen_9:306752851580026882>",
            "*": "<:springgreen_asterisk:306752872908062723>",
            "#": "<:springgreen_hash:306752873298132992>"
-        ],
+        },
         "color": "0x11EB60"
      },
      "unown": {
