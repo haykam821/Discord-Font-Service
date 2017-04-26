@@ -243,7 +243,8 @@
         "color": "0x738BD7"
      },
      "springgreen": {
-        "font_name": "Spring Green Indicators"
+        "font_name": "Spring Green Indicators",
+        "color": "0x11EB60"
      },
      "unown": {
         "font_name": "Unown Forms",
